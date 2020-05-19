@@ -11,9 +11,9 @@ else:
 
 #kernel now ready for use
 while True:
-    print kernel.respond(raw_input("Enter your message >> "))
+    print (kernel.respond(input("Enter your message >> ")))
 while True:
-    message = raw_input("Enter your message to the bot: ")
+    message = input("Enter your message to the bot: ")
     if message == "quit":
         exit()
     elif message == "save":
